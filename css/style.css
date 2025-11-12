@@ -1,0 +1,54 @@
+.banner{
+    background-image:url(/portfolio/images/image4.jpg);
+    background-size: cover;
+    padding:200px 0px;
+    background-repeat: no-repeat;
+}
+
+h1,h4{
+    color:rgb(9, 9, 9);
+    font-weight: bold;
+}
+body{
+     
+  font-family: "Momo Trust Display", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+
+}
+
+/* Make all cards equal height */
+.card {
+  height: 100%;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+/* Add hover effect */
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* Fix image size & alignment */
+.card-img-top {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  margin: 20px auto 10px auto;
+}
+
+/* Align text properly */
+.card-title {
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+/* Add space around the section */
+#skills {
+  background-color: #f8f9fa;
+  padding: 50px 0;
+}
+
+
